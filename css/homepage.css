@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global font-family */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 1rem;
+}
+
+nav h1 {
+  color: azure;
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+li a:hover {
+transition: 1s;
+border: 1px solid white;
+}
+
+/* Main section */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/molissbg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.alpha {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.alpha h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.alpha p {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+.specialbtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.specialbtn a {
+  background-color: white;
+  color: #222;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+
+.specialbtn a:hover {
+  background-color: #222;
+  color: white;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia a {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+
+.socialmedia a:hover {
+  transform: translateY(-5px);
+}
+
+.socialmedia .fb:hover {
+  color: #1877f2;
+}
+
+.socialmedia .yt:hover {
+  color: #ff0000;
+}
+
+.socialmedia .li:hover {
+  color: #0e76a8;
+}
